@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.13)
 
 project(SPUTNIK CUDA CXX C)
 
-#cmake_policy(SET CMP0104 OLD)
+cmake_policy(SET CMP0104 OLD)
 
 ##
 ### Build options.
